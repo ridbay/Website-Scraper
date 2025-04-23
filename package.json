@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
@@ -10,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "website-scraper": "^4.2.1"
+    "website-scraper": "^5.3.1"
   }
 }

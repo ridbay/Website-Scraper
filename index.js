@@ -1,19 +1,21 @@
-const scrape = require("website-scraper");
+// const scrape = require("website-scraper");
+import scrape from "website-scraper";
 
-const base_url = "https://www.nuprc.gov.ng";
+const base_url =
+  "https://preview.themeforest.net/item/quantech-it-solutions-technology-html-template/full_screen_preview/43482577";
 scrape({
   urls: [
-    `${base_url}/index.php`, // Will be saved with default filename 'index.html'
-    {
-      url: `${base_url}/history-of-dpr/`,
-      filename: "history-of-dpr.html",
-    },
-    {
-      url: `${base_url}/value-statement/`,
-      filename: "value-statement.html",
-    },
+    `${base_url}`, // Will be saved with default filename 'index.html'
+    // {
+    //   url: `${base_url}/history-of-dpr/`,
+    //   filename: "history-of-dpr.html",
+    // },
+    // {
+    //   url: `${base_url}/value-statement/`,
+    //   filename: "value-statement.html",
+    // },
   ],
-  urls: ["https://www.nuprc.gov.ng/index.php"],
+  // urls: ["https://www.nuprc.gov.ng/index.php"],
   directory: "./scraped-website",
   subdirectories: [
     {
