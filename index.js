@@ -1,8 +1,7 @@
 // const scrape = require("website-scraper");
 import scrape from "website-scraper";
 
-const base_url =
-  "https://preview.themeforest.net/item/quantech-it-solutions-technology-html-template/full_screen_preview/43482577";
+const base_url = "https://modinatheme.com/html/quantech-html/";
 scrape({
   urls: [
     `${base_url}`, // Will be saved with default filename 'index.html'
