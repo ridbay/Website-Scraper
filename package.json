@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cloudflare": "^4.2.0",
     "website-scraper": "^5.3.1"
   }
 }
